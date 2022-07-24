@@ -89,19 +89,19 @@ yolov5_labels_dir = os.path.join(data_base_dir, "labels/")
 if not os.path.isdir(yolov5_labels_dir):
     os.mkdir(yolov5_labels_dir)
 clear_hidden_files(yolov5_labels_dir)
-yolov5_images_train_dir = os.path.join(yolov7_images_dir, "train/")
+yolov5_images_train_dir = os.path.join(yolov5_images_dir, "train/")
 if not os.path.isdir(yolov5_images_train_dir):
     os.mkdir(yolov5_images_train_dir)
 clear_hidden_files(yolov5_images_train_dir)
-yolov5_images_test_dir = os.path.join(yolov7_images_dir, "val/")
+yolov5_images_test_dir = os.path.join(yolov5_images_dir, "val/")
 if not os.path.isdir(yolov5_images_test_dir):
     os.mkdir(yolov5_images_test_dir)
 clear_hidden_files(yolov5_images_test_dir)
-yolov5_labels_train_dir = os.path.join(yolov7_labels_dir, "train/")
+yolov5_labels_train_dir = os.path.join(yolov5_labels_dir, "train/")
 if not os.path.isdir(yolov5_labels_train_dir):
     os.mkdir(yolov5_labels_train_dir)
 clear_hidden_files(yolov5_labels_train_dir)
-yolov5_labels_test_dir = os.path.join(yolov7_labels_dir, "val/")
+yolov5_labels_test_dir = os.path.join(yolov5_labels_dir, "val/")
 if not os.path.isdir(yolov5_labels_test_dir):
     os.mkdir(yolov5_labels_test_dir)
 clear_hidden_files(yolov5_labels_test_dir)
